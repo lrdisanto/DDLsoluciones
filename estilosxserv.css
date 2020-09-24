@@ -1,0 +1,32 @@
+.contenedor .servicio{
+    width: 90%;
+    max-width: 100%;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1;
+    grid-template-areas:"texto foto";
+
+}
+.contenedor .servicio .texto{
+    grid-area: texto;
+    background-color: rgba(0,0,0,0.8);
+    padding: 5%;
+    margin:5%;
+}
+.contenedor .servicio .foto{
+    grid-area: foto;
+    background-color:rgba(0,0,0,0.8);
+    padding: 5%;
+    margin:5%;
+    
+}
+
+.contenedor .servicio .foto img{
+   max-width: 100%;
+}
+
+.contenedor .servicio .foto iframe{
+    max-width: 500px;
+}
+

@@ -1,0 +1,42 @@
+
+.contenedor .servicios{
+    width: 90%;
+    max-width: 100%;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:"header header header" 
+                        "serv1 serv2 serv3"
+                         "footer footer footer";
+
+}
+.contenedor .header{
+    grid-area: header;
+   
+}
+.contenedor .servicios .serv1{
+    grid-area: serv1;
+    
+}
+.contenedor .servicios .serv2{
+    grid-area: serv2;
+}
+.contenedor .servicios .serv3{
+    grid-area: serv3;
+}
+
+.contenedor .footer{
+    grid-area: footer;
+}
+
+.contenedor .servicios div img{
+    max-width: 100%;
+}
+.contenedor .servicios .serv1,
+.contenedor .servicios .serv2,
+.contenedor .servicios .serv3{
+    background-color:rgba(0,0,0,0.8);
+    margin: 5%;
+    padding: 5%;
+}

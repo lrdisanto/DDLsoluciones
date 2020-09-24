@@ -1,0 +1,141 @@
+
+.contenedor{
+    width: 90%;
+    max-width: 100%;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:"header header header" 
+                         "main main sidebar"
+                         "imagen-1 imagen-2 sidebar"
+                         "footer footer footer";
+
+}
+
+
+.contenedor .sidebar,
+.contenedor .main{
+background-color:rgba(0, 0, 0, 0.8);
+padding: 2%;
+border-radius: 0.8%;
+margin: 1%;
+
+}
+.contenedor .sidebar{
+    grid-area: sidebar;
+}
+
+.contenedor .main{
+    grid-area: main;
+}
+
+.contenedor header{
+    grid-area: header;
+}
+.contenedor footer{
+    grid-area: footer;
+    
+}
+.contenedor .imagen-1 img{
+    grid-area: imagen-1;
+    max-width: 100%;
+}
+
+.contenedor .imagen-2 img{
+    grid-area: imagen-2;
+    max-width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+.contenedor .sidebar{
+
+    position: relative;
+    display: block;
+    align-items: center;
+}
+
+.contenedor .sidebar .texto,
+.contenedor .sidebar .cont-fot{
+    margin: 5px auto;
+    margin: 2%;
+}
+.contenedor .sidebar .cont-fot .nos{
+    max-width: 100%;
+
+}
+.contenedor .sidebar .cont-fot .nos:hover{
+    -webkit-transform: scale(2);
+
+}
+
+.contenedor .imagen-1,
+.contenedor .imagen-2{
+    text-align: center;
+display: flex;
+align-items: center;
+margin:3%
+}
+
+
+@media screen and (max-width: 768px){
+
+    .contenedor{
+        
+        grid-template-areas:"header header header" 
+                         "main main main"
+                         "sidebar sidebar sidebar"
+                         "imagen-1 imagen-2 imagen-2"
+                         "footer footer footer";
+    }
+
+    .contenedor .imagen-1 img 
+    {
+       max-width: 100%;
+       
+    }
+    .contenedor .imagen-2 img{
+        max-width: 150%;
+        
+    }
+    .contenedor .header .links{
+        flex-direction: column;
+
+    }
+   
+
+}
+
+@media screen and (max-height: 768px){
+
+    .contenedor{
+        
+        grid-template-areas:"header header header" 
+                         "main main main"
+                         "imagen-1 imagen-2 imagen-2"
+                         "sidebar sidebar sidebar"
+                         "footer footer footer";
+    }
+
+    .contenedor .imagen-1 img 
+    {
+       max-width: 100%;
+       margin: 5%;
+       
+    }
+    .contenedor .imagen-2 img{
+        max-width: 150%;
+        margin:5%;
+        
+    }
+  
+   
+
+}

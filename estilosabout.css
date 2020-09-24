@@ -1,0 +1,103 @@
+.contenedor .nosotros{
+    width: 90%;
+    max-width: 100%;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:"erika lourdes laura antonella" 
+                         "cuchi ariel franco arian"
+                         ;
+
+}
+.contenedor .nosotros .erika{
+    grid-area: erika;
+    background-color:rgba(0,0,0,0.8);
+    margin: 5%;
+    padding: 5%;
+    width: fit-content;
+  width: auto;
+}
+.contenedor .nosotros .lourdes{
+    grid-area: lourdes;
+    background-color:rgba(0,0,0,0.8);
+    margin: 5%;
+    padding: 5%;
+ width: fit-content;
+    width: auto;
+}
+.contenedor .nosotros .laura{
+    grid-area: laura;
+    background-color:rgba(0,0,0,0.8);
+    margin: 5%;
+    padding: 5%; 
+    width: fit-content;
+    
+}
+.contenedor .nosotros .antonella{
+    grid-area: antonella;
+  
+    background-color:rgba(0,0,0,0.8);
+    margin: 5%;
+    padding: 5%;
+    width: fit-content;
+}
+.contenedor .nosotros .cuchi{
+    grid-area: cuchi;
+    background-color:rgba(0,0,0,0.8);
+    margin: 5%;
+    padding: 5%;
+    width: fit-content;
+}
+.contenedor .nosotros .ariel{
+    grid-area: ariel;
+    background-color:rgba(0,0,0,0.8);
+    margin: 5%;
+    padding: 5%;
+    width: fit-content;
+}
+.contenedor .nosotros .franco{
+    grid-area: franco;
+    background-color:rgba(0,0,0,0.8);
+    margin: 5%;
+    padding: 5%;
+    width: fit-content;
+}
+.contenedor .nosotros .arian{
+    grid-area: arian;
+    background-color:rgba(0,0,0,0.8);
+    margin: 5%;
+    padding: 5%;
+    width: fit-content;
+}
+
+.contenedor .nosotros div .imagen img{
+
+   max-width: 100%;
+    
+}
+.contenedor .nosotros div{
+    align-items: center;
+    border-radius: 5%;
+    
+}
+
+.contenedor .nosotros div{
+    align-items: center;
+    border-radius: 5%;
+}
+
+.contenedor .nosotros >div:hover{
+    background-color: rgba(65, 105, 225, 0.884);
+    transform: scale(1.2);
+    
+}
+    
+.contenedor .nosotros >div .texto ul{
+    margin: 10%;
+    
+}
+ 
+.contenedor .nosotros div .texto {
+    margin:2%;
+}

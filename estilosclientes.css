@@ -1,0 +1,58 @@
+.contenedor .clientes{
+    
+        width: 90%;
+        max-width: 100%;
+        display: grid;
+        grid-gap: 1%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:"coca unilever adidas" 
+                             "nike airline ford"
+                             "fiat nestle ypf";
+    
+    
+    
+}
+
+.contenedor .clientes .coca{
+    grid-area: coca;
+}
+.contenedor .clientes .unilever{
+    grid-area: unilever;
+}
+.contenedor .clientes .adidas{
+    grid-area: adidas;
+}
+.contenedor .clientes .nike{
+    grid-area: nike;
+}
+.contenedor .clientes .ford{
+    grid-area: ford;
+}
+.contenedor .clientes .fiat{
+    grid-area: fiat;
+}
+.contenedor .clientes .nestle{
+    grid-area: nestle;
+}
+.contenedor .clientes .airline{
+    grid-area: airline;
+}
+.contenedor .clientes .ypf{
+    grid-area: ypf;
+}
+
+.contenedor .clientes >div img{
+    max-width: 30%;
+}
+
+.contenedor .clientes {
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+}
+.contenedor .clientes >div img:hover{
+    transform: scale(1.5);
+}

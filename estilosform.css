@@ -1,0 +1,63 @@
+
+.contenedor .contform {
+	background: rgba(0,0,0,0.8);
+	width: 90%;
+	max-width: 80%;
+	margin: auto;
+	padding: 3% 8%;
+	margin:4%;
+	font-size: 100%;
+	border-radius: 1%;
+}
+
+.contenedor .contform label {
+	display:block;
+	color:#fff;
+    font-size: 100%;
+	font-family: Franklin Gothic Medium;
+	position: relative;
+}
+
+.contenedor .contform input{
+	background: rgba(0,0,0,.7);
+	border:none;
+	outline: none;
+	border-bottom: 2px solid #040883;
+	width: 100%;
+	padding: 2%;
+	margin-bottom: 2%;
+	border-radius: 2px;
+	font-size: 100%;
+	color: #fff;
+	font-family: Franklin Gothic Medium;
+}
+
+
+.contenedor .contform .btn-submit{
+	width: 100%;
+	font-family: Helvetica;
+	outline: none;
+	background: rgba(82,82,91,.5);
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 2% 0;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.contenedor .contform .btn-submit:hover {
+	background: rgba(82,82,91,.8);
+}
+
+.contenedor .contform .radiobutton{
+    position:relative;
+}
+
+.contenedor .contform p{
+    position:relative;
+}
+
+.contenedor p{
+    color:black
+}
